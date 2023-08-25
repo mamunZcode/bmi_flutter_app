@@ -7,10 +7,10 @@ class aboutScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black87,
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           'About',
           style: TextStyle(
-              fontSize: 20.0,
+              fontSize: 18.0,
               fontStyle: FontStyle.italic,
               fontWeight: FontWeight.bold),
         ),
