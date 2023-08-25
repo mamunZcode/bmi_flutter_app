@@ -22,16 +22,16 @@ class aboutScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Container(
-                padding: EdgeInsets.all(10.0),
+                padding: const EdgeInsets.all(10.0),
                 color: Colors.black87,
                 height: 120.0,
                 width: 80.0,
-                margin: EdgeInsets.only(left: 50.0, right: 50.0),
-                child: Image(
+                margin: const EdgeInsets.only(left: 50.0, right: 50.0),
+                child: const Image(
                   image: AssetImage('assets/aboutme.png'),
                 ),
               ),
-              Row(
+              const Row(
                 children: [
                   Text('Developer Name: MD Muntasir Mamun'),
                 ],
