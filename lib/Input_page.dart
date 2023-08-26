@@ -45,7 +45,11 @@ class _InputPage extends State<InputPage> {
           IconButton(onPressed: (){
             Navigator.pushNamed(context,'/aboutScreen');
           },
-              icon: Icon(Icons.line_weight_rounded)
+              icon: Icon(
+                Icons.account_box_outlined,
+                color: Colors.red,
+                size: 24.0
+              )
           )
         ],
       ),
